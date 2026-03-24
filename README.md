@@ -15,41 +15,6 @@ This repository contains a complete big data analytics pipeline developed for th
 
 ---
 
-## 🏗️ Project Structure
-
-This project is organized into several directories, each serving a unique purpose in the overall architecture of the application. Below is an overview of the directory structure:
-
-### `/data`
-Contains all datasets used for training, validation, and testing. Each dataset is version controlled to ensure reproducibility.
-
-### `/src`
-This directory holds all source code for the project. It includes subdirectories for different components:
-- **/components**: Reusable UI components.
-- **/models**: Machine learning models including training scripts.
-- **/utils**: Utility functions that support various functionalities throughout the project.
-
-### `/notebooks`
-Contains Jupyter notebooks utilized for explorative data analysis and visualization. Each notebook is properly documented for clarity.
-
-### `/tests`
-Holding unit tests and integration tests to ensure the reliability of the codebase. Tests are organized to mirror the structure of `/src` for easy navigation.
-
-### `/docs`
-Comprehensive documentation for the project, including setup guides, usage instructions, and API documentation. This directory is essential for onboarding new contributors.
-
-### `/scripts`
-Scripts for automating various tasks such as data preprocessing, evaluation metrics, and model deployment. Each script includes a brief description of what it does.
-
-### `/config`
-Configuration files for managing environment variables and settings necessary for running the application.
-
-### `/requirements`
-Contains all dependency listings necessary for the project, typically in a `requirements.txt` file for Python projects.
-
-This structured approach enhances collaboration, increases code maintainability, and simplifies navigation through the project. Each section is designed to provide clarity on the purpose and organization of the files and directories, fostering a better understanding of the overall architecture.
-
----
-
 ## 🛠️ Technologies & Languages
 
 **Primary Languages:**
