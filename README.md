@@ -17,8 +17,36 @@ This repository contains a complete big data analytics pipeline developed for th
 
 ## 🏗️ Project Structure
 
-CYB-304-Big-Data-Project/ ├── README.md # This file ├── CYB 304 PROJECT.docx # Detailed project documentation ├── model_schema.txt # Database schema and model specifications ├── app.R # R Shiny interactive dashboard application ├── nosql_app.py # Python application for NoSQL database operations ├── Task-1.png # Task 1 visualization/screenshot ├── Task-2A.png # Task 2A visualization/screenshot ├── Task-2B.png # Task 2B visualization/screenshot ├── Task-3A.png # Task 3A visualization/screenshot ├── Task-3B.png # Task 3B visualization/screenshot ├── Task-4.png # Task 4 visualization/screenshot ├── Task 5 Cleaning Data.png # Data cleaning process visualization ├── Task 5 Confusion Matrix.png # Model performance confusion matrix ├── Task 5 Dashboard A.png # Dashboard design variant A ├── Task 5 Dashboard B.png # Dashboard design variant B ├── Task 5 Dashboard UI A.png # Dashboard UI implementation A ├── Task 5 Dashboard UI B.png # Dashboard UI implementation B ├── Task 5 Decision tree.png # Decision tree model visualization ├── Task-6A.png # Task 6A visualization/screenshot ├── Task-6B.png # Task 6B visualization/screenshot ├── Task-6C.png # Task 6C visualization/screenshot ├── Task-6D.png # Task 6D visualization/screenshot └── .gitignore # Git ignore configuration
+This project is organized into several directories, each serving a unique purpose in the overall architecture of the application. Below is an overview of the directory structure:
 
+### `/data`
+Contains all datasets used for training, validation, and testing. Each dataset is version controlled to ensure reproducibility.
+
+### `/src`
+This directory holds all source code for the project. It includes subdirectories for different components:
+- **/components**: Reusable UI components.
+- **/models**: Machine learning models including training scripts.
+- **/utils**: Utility functions that support various functionalities throughout the project.
+
+### `/notebooks`
+Contains Jupyter notebooks utilized for explorative data analysis and visualization. Each notebook is properly documented for clarity.
+
+### `/tests`
+Holding unit tests and integration tests to ensure the reliability of the codebase. Tests are organized to mirror the structure of `/src` for easy navigation.
+
+### `/docs`
+Comprehensive documentation for the project, including setup guides, usage instructions, and API documentation. This directory is essential for onboarding new contributors.
+
+### `/scripts`
+Scripts for automating various tasks such as data preprocessing, evaluation metrics, and model deployment. Each script includes a brief description of what it does.
+
+### `/config`
+Configuration files for managing environment variables and settings necessary for running the application.
+
+### `/requirements`
+Contains all dependency listings necessary for the project, typically in a `requirements.txt` file for Python projects.
+
+This structured approach enhances collaboration, increases code maintainability, and simplifies navigation through the project. Each section is designed to provide clarity on the purpose and organization of the files and directories, fostering a better understanding of the overall architecture.
 
 ---
 
