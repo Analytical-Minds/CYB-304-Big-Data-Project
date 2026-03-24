@@ -1,0 +1,5 @@
+/.hdfs_data
+/LabData
+*.csv
+*.tgz
+*.gz

@@ -1,0 +1,10 @@
+Collection: fraud_alerts
+Document Structure:
+{
+  "_id": "ObjectId",        // Auto-generated unique ID
+  "type": "String",         // e.g., "TRANSFER", "CASH_OUT"
+  "amount": "Double",       // Transaction value
+  "oldbalanceOrg": "Double",
+  "isFraud": "Int32",       // 1 for Fraud, 0 for Legitimate
+  "flagged_by": "ML_Model_V1" // Custom metadata allowed in NoSQL
+}
